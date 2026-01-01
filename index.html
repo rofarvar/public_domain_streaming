@@ -1,1 +1,16 @@
+---
+layout: default
+---
+
+<h1>Varreira.com Streaming. A streaming service for the public domain, in the public domain.</h1>
+
+<ul>
+  {% for movie in site.movies %}
+  <li>
+    <a href="{{ movie.url }}">{{ movie.title }} ({{ movie.year }})</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<a href="/suggest.html">Suggest a Movie</a>
 
