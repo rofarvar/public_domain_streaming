@@ -1,0 +1,12 @@
+title: "Varreira.com Streaming"
+description: "A streaming service for the public domain, on the public domain"
+baseurl: ""
+url: "https://rofarvar.github.io"
+
+collections:
+  movies:
+    output: true
+    permalink: /movies/:title/
+
+markdown: kramdown
+theme: minima
